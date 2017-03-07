@@ -1,0 +1,31 @@
+body{
+    width: 670px;
+    border: 20px solid;
+    border-color: #c8cfd4;
+    padding: 25px;
+    margin: 25px;
+    font-family: "Arial", helvetica, sans-serif;
+    letter-spacing: .5px;
+    line-height: 22px;
+}
+h1{
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size: 13px;
+    color: #1198ee;
+    font-weight:normal;
+    letter-spacing: 4px;
+}
+h2{
+    color: #2c3c57;
+}
+p:first-of-type{
+    border-left: solid;
+    border-left-color: #c8cfd4;
+    border-left-width: 6px;
+    padding-left: 7px;
+}
+div+div{
+    border-top:solid;
+    border-top-color: #d8dfe4;
+    padding-top: 17px;
+}
